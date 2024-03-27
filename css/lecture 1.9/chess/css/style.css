@@ -1,0 +1,37 @@
+*{
+ margin:0;
+ box-sizing:border-box;
+}
+
+.bg{
+	
+	background-image:url('../img/c1.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.container{
+	width:1140px;
+	margin:50px auto;
+}
+.chessborad{
+	width:750px;
+	height:750px;
+    margin:50px auto;
+	border:2px solid red;
+	
+}
+
+.black{
+	width:calc(100% - 87.5%);
+	height:calc(100% - 87.5%);
+	background-color:#FFFFC2;
+	float:left;
+}
+
+.white{
+	width:calc(100% - 87.5%);
+	height:calc(100% - 87.5%);
+	background-color: #3A3B3C;
+	float:left;
+}

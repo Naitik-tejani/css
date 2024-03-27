@@ -1,0 +1,271 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: 0;
+}
+
+:root {
+	--primary-color: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+	--secondary-color: #000;
+	--coffe-color: #9b762e;
+	--white-color: #fff;
+	--warning-color: #693806fc;
+	--text-black-50: #585757;
+	--fs-14: 14px;
+	--fs-16: 16px;
+	--fs-18: 18px;
+	--fs-25: 25px;
+	--fs-30: 30px;
+	--fs-43: 43px;
+	--fs-48: 43px;
+	--fw-100: 100;
+	--fw-200: 200;
+	--fw-300: 300;
+	--fw-400: 400;
+	--fw-500: 500;
+	--fw-600: 600;
+	--fw-700: 700;
+	--fw-800: 800;
+	--fw-900: 900;
+	--padding-left: 12px;
+	--padding-right: 12px;
+	--main: Frank Ruhl Libre;
+	--sub: Urbanist;
+
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding-left: var(--padding-left);
+	padding-right: var(--padding-right);
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: -12px;
+	padding-right: -12px;
+}
+
+.d-flex {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.align-center {
+	align-items: center;
+}
+
+.justify-end {
+	justify-content: flex-end;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.w-1 {
+	width: 8.33%;
+}
+
+.w-2 {
+	width: 16.66%;
+}
+
+.w-3 {
+	width: 25%;
+}
+
+.w-4 {
+	width: 33.33%;
+}
+
+.w-5 {
+	width: 41.66%;
+}
+
+.w-6 {
+	width: 50%;
+}
+
+.w-7 {
+	width: 58.33%;
+}
+
+.w-8 {
+	width: 66.66%;
+}
+
+.w-9 {
+	width: 75%;
+}
+
+.w-10 {
+	width: 83.33%;
+}
+
+.w-11 {
+	width: 91.66%;
+}
+
+.w-12 {
+	width: 100%;
+}
+
+.w-1,
+.w-2,
+.w-3,
+.w-4,
+.w-5,
+.w-6,
+.w-7,
+.w-8,
+.w-9,
+.w-10,
+.w-11,
+.w-12 {
+	padding-left: var(--padding-left);
+	padding-right: var(--padding-right);
+}
+
+body {
+	background-color: var(--white-color);
+	font-size: var(--fs-14);
+	font-weight: var(--fw-100);
+	line-height: var(--lh);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+/* header strat */
+header {
+	padding: 20px 0px;
+	font-family: var(--main-font);
+	font-weight: var(--fw-500);
+}
+
+.logo img {
+	width: 90px;
+}
+
+header .menu ul li {
+	padding-right: 5px;
+	font-size: var(--fs-14);
+}
+
+header .menu ul li a {
+	color: var(--secondary-color);
+	text-decoration: none;
+	padding: 25px;
+	transition: var(--transition);
+	text-transform: capitalize;
+}
+
+header .menu ul li:last-child {
+	margin-right: 0;
+}
+
+header .menu ul li a i {
+	font-size: var(--fs-14);
+	transition: var(--transition);
+	margin-left: 4px;
+}
+
+header .menu ul li .drop-down {
+	position: absolute;
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+	padding: 20px 0;
+	top: 130px;
+	opacity: 0;
+	visibility: hidden;
+	transition: var(--transition);
+}
+
+header .menu ul li .drop-down ul li a {
+	color: var(--black-color);
+	font-size: var(--fs-16);
+	padding: 5px 20px;
+}
+
+header .menu ul li:hover a {
+	color: var(--primary-color);
+}
+
+header .menu ul li:hover a i {
+	transform: rotate(180deg);
+}
+
+
+/* header end  */
+
+/* section-1 start */
+.banner {
+	position: relative;
+
+}
+
+.banner .banner-img img {
+	width: 100%;
+}
+
+.banner .banner-cantent {
+	position: absolute;
+	bottom: 40px;
+	left: 250px;
+}
+
+.banner .banner-cantent h1 {
+	color: var(--white-color);
+	font-size: var(--fs-43);
+	font-weight: var(--fw-400);
+	font-family: var(--main);
+
+}
+.banner .banner-cantent a button  {
+	font-size: var(--fs-14);
+	font-family: var(--sub);
+}
+
+.banner .banner-cantent a button {
+	width: 145px;
+	height: 40px;
+	border: 3px solid var(--white-color);
+	background-color: var(--coffe-color);
+	padding: 1px;
+	color: var(--white-color);
+}
+
+.banner .banner-cantent a button  {
+	font-size: var(--fs-14);
+	font-family: var(--sub);
+}
+
+
+/* section-1 end */
+
+

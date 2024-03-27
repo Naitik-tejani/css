@@ -1,0 +1,68 @@
+*{
+	margin:0 ;
+	box-sizing:border-box;
+}
+.container{
+	max-width:1140px;
+	margin:0 auto;	
+}
+.card1{
+	max-width:400px;
+	background-color:#ADD8E6;
+	margin:30px 30px;
+	border-radius:20px; 
+	padding:10px;
+	border:15px solid yellow;
+	display:inline-block;
+	text-align:justify;
+	color:blue;
+	
+}
+.card1 i{
+    color:black;
+	font-size:50px;
+}
+p{
+	margin:0 auto;
+}
+.card2{
+	max-width:400px;
+	background-color:#FFC0CB;
+	margin:100px auto;
+	border-radius:20px;
+	padding:10px;
+	border:15px solid blue;
+	display:inline-block;
+	text-align:justify;
+	color:blue;
+}
+.card2 i{
+    color:green;
+	font-size:30px;
+}
+p{
+	margin:0 auto;
+}
+
+.card3{
+	max-width:400px;
+	background-color:red;
+	margin:100px auto;
+	border-radius:20px;
+	padding:10px;
+	border:15px solid yellow;
+	display:inline-block;
+	text-align:justify;
+}
+
+.card4{
+	max-width:400px;
+
+	background-color:red;
+	margin:100px auto;
+	border-radius:20px;
+	padding:10px;
+	border:15px solid yellow;
+	display:inline-block;
+	text-align:justify;
+}
